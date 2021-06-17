@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estimulando</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Nav bar -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top p-1 show">
+        <a href="index.html" class="logoNavbar-responsive"><img class="logoimg-responsive" src="img/logo/LogoColor-sinanclaje.svg" alt="Logo del sitio" width="70"></a>
+        <a href="index.html" class="logoNavbar"><img class="logoimg" src="img/logo/logocolor-anclaje-nav.svg" alt="Logo del sitio" width="280"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="justify-content-end navbar-nav w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="juegos.html">Juegos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comunidad.html">Comunidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <button><a class="nav-link button_nav" href="contacto.html">Contacto</a></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="comunidad-main">
+        <!--Seccion UNO-->
+    
+        <header id="inicio">
+            <div class="home-texto">
+                <h1>Estimulando juntos</h1>
+                <h2>Trastornos del Espectro Autista</h2>
+                <img class="img-home-celu" src="img/Estimulando_Home Celu.png" alt="Imagen de niña jugando">
+                <h3>Bienvenid@s a Estimulando</h3>
+                <p>Una plataforma diseñada para ayudar a niñ@s con autismo. Buscamos que sea una herramienta accesible, ágil y segura. </p>
+                <div class="desliza">
+                    <p>Enterate de nuestras funciones!</p>
+                    <button>Desliza</button>
+                    <ion-icon size="large" name="chevron-down-outline"></ion-icon>
+                </div>
+            </div>
+            <img class="img-home-web" src="img/Estimulando_Home Web.png" width="980" alt="Imagen de niña jugando">
+        </header>
+    
+    
+        <!-- Iconos -->
+    
+        <section class="contenedor-funciones">
+            <div class="funciones">
+                <div class="icono-position">
+                    <img src="img/iconos/icono_juegos.png" width="120" alt="Icono juegos">
+                    <h4>Juegos</h4>
+                </div>
+                <div class="icono-position">
+                    <img src="img/iconos/icono_aprendizaje.png" width="120" alt="Icono aprendizaje">
+                    <h4>Aprendizaje</h4>
+                </div>
+                <div class="icono-position">
+                    <img src="img/iconos/icono_comunidad.png" width="120" alt="Icono comunicacion">
+                    <h4>Comunicación</h4>
+                </div>
+                <div class="icono-position">
+                    <img src="img/iconos/icono_accesibilidad.png" width="120" alt="Icono accesibilidad">
+                    <h4>Accesibilidad</h4>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Card/hover -->
+    
+        <section class="cards-juegos-comunidad">
+            <div class="card-juegos">
+                <div class="card-juegos-content">
+                    <h3>Juegos</h3>
+                    <p>Juegos didacticos y entretenidos para aprender de forma divertida.</p>
+                </div>
+            </div>
+            <div class="card-comunidad">
+                <div class="card-comunidad-content">
+                    <h3>Comunidad</h3>
+                    <p>Aprende de las experiencias de otros usuarios.</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Carrousel -->
+    
+        <section class="container-all">
+            <div>
+                <input type="radio" id="1" name="image-slide" hidden/>
+                <input type="radio" id="2" name="image-slide" hidden/>
+                <input type="radio" id="3" name="image-slide" hidden/>
+                <div class="slide">
+                    <div class="item-slide">
+                        <div class="textos-slide">
+                            <h2>Estimulando juntos</h2>
+                        </div>
+                        <img src="img/img_home-03.jpg" alt="img Estimulando Juntos">
+                    </div>
+                    <div class="item-slide">
+                        <div class="textos-slide">
+                            <h2>Aprendemos juntos</h2>
+                        </div>
+                        <img src="img/img_home-02.jpg" alt="img Aprendemos Juntos">
+                    </div>
+                    <div class="item-slide">
+                        <div class="textos-slide">
+                            <h2>Jugamos juntos</h2>
+                        </div>
+                        <img src="img/img_home_Mesa de trabajo 1.jpg" alt="img Jugando Juntos">
+                    </div>
+                </div>
+                <div class="pagination">
+                    <label class="pagination-item" for="1">
+                        <img src="img/img_home-03.jpg" alt="img Estimulando Juntos">
+                    </label>
+                    <label class="pagination-item" for="2">
+                        <img src="img/img_home-02.jpg" alt="img Aprendemos Juntos">
+                    </label>
+                    <label class="pagination-item" for="3">
+                        <img src="img/img_home_Mesa de trabajo 1.jpg" alt="img Jugando Juntos">
+                    </label>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="img/logo/LogoBlanco-footer.svg" width="100" height="100" alt="Logo del sitio">
+        <div class="container-footer">
+            <div class="footer-contacto">
+                <h4>contacto!</h4>
+                <ion-icon size="large" name="logo-instagram"></ion-icon>
+                <ion-icon size="large" name="logo-facebook"></ion-icon>
+                <ion-icon size="large" name="logo-twitter"></ion-icon>
+                <h6><a class="estimulando-sitio" href="somosestimulando@gmail.com">somosestimulando@gmail.com</a></h6>
+            </div>
+            <div class="footer-mensaje">
+                <h4>Mandanos un mensaje!</h4>
+                <input name="email" id="email" type="email" placeholder="Contanos tu experiencia">
+                <button type="submit">Enviar</button>
+            </div>
+            <div class="footer-derechos">
+                <ul>
+                    <li><h6>Todos los derechos reservados. Copyright &copy; 2021</h6></li>
+                    <li><h6>Privacidad | Términos y condiciones | Avisos legales</h6></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</html>
